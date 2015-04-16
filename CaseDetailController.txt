@@ -3,6 +3,8 @@ public class CaseDetailOverrideExtension
     private string caseid;    
     private string contactid;
     
+    ...... check if it works
+    
     private final Case record;
     private Case m_caseDetail;
     private string m_recordTypeName;   
