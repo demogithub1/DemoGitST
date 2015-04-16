@@ -1,5 +1,7 @@
 public class CaseDetailOverrideExtension
 {
+    private string caseid;    
+
     private final Case record;
     private Case m_caseDetail;
     private string m_recordTypeName;   

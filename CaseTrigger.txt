@@ -1,5 +1,6 @@
 trigger CaseAfterUpdate on Case (after update)
 {
+	// Test Trigger
         
     if(CreditDisputeTriggerHandler.isNotCreditDiputeFlow(Trigger.new[0]))
     {
